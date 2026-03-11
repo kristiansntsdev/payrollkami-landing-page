@@ -1,6 +1,6 @@
 const Logos: React.FC = () => {
     return (
-        <section id="logos" className="py-32 px-5 bg-background">
+        <section id="logos" className="relative z-10 -mt-32 pt-32 pb-32 px-5 bg-white border-t border-gray-100 shadow-[0_-8px_24px_rgba(0,0,0,0.06)] rounded-t-3xl">
             <p className="text-lg font-medium text-center">Trusted by <span className="text-secondary">2000+</span> customers worldwide</p>
             <div className="mt-5 w-full flex flex-wrap flex-row items-center justify-evenly gap-5 sm:gap-10 opacity-45 logos-container">
                 {/* Notion */}

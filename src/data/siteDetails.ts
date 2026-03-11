@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'PayrollKami',
+    siteUrl: 'https://payrollkami.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'PayrollKami - Serahkan Proses Penggajian Anda kepada Kami',
+        description: 'PayrollKami adalah solusi penggajian yang andal dan mudah digunakan, dirancang untuk membantu bisnis Anda fokus pada pertumbuhan sambil kami menangani kebutuhan penggajian Anda dengan presisi dan perhatian.',
     },
-    language: 'en-us',
-    locale: 'en-US',
+    language: 'id-ID',
+    locale: 'id-ID',
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }

@@ -6,12 +6,12 @@ import { IStats } from "@/types";
 export const stats: IStats[] = [
     {
         title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
+        icon: <BsBarChartFill size={34} className="text-secondary" />,
         description: "Transactions processed securely every day, providing real-time insights."
     },
     {
         title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
+        icon: <BsFillStarFill size={34} className="text-primary" />,
         description: "Star rating, consistently maintained across app stores."
     },
     {
