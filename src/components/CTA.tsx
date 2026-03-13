@@ -1,11 +1,15 @@
-import { ctaDetails } from "@/data/cta"
+'use client'
 
-import AppStoreButton from "./AppStoreButton"
-import PlayStoreButton from "./PlayStoreButton"
+import { ctaDetails } from "@/data/cta"
+import GetDemoModal from "./GetDemoModal"
+import { useState } from "react"
 
 const CTA: React.FC = () => {
+    const [isDemoModalOpen, setDemoModalOpen] = useState(false);
+
     return (
         <section id="cta" className="mt-10 mb-5 lg:my-20">
+            <GetDemoModal isOpen={isDemoModalOpen} onClose={() => setDemoModalOpen(false)} />
             <div className="relative h-full w-full z-10 mx-auto py-12 sm:py-20">
                 <div className="h-full w-full">
                     <div className="rounded-3xl opacity-95 absolute inset-0 -z-10 h-full w-full bg-[#050a02] bg-[linear-gradient(to_right,#12170f_1px,transparent_1px),linear-gradient(to_bottom,#12170f_1px,transparent_1px)] bg-[size:6rem_4rem]">
@@ -17,9 +21,13 @@ const CTA: React.FC = () => {
 
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
-                        <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-                        <AppStoreButton />
-                        <PlayStoreButton />
+                        <div className="mt-8">
+                            <button
+                                onClick={() => setDemoModalOpen(true)}
+                                className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-white font-semibold text-base shadow-lg hover:bg-primary-accent transition-colors"
+                            >
+                                🚀 Mulai dan Coba Demo Gratis
+                            </button>
                         </div>
                     </div>
                 </div>
