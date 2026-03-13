@@ -13,17 +13,9 @@ export const footerDetails: {
             text: "Features",
             url: "#features"
         },
-        {
-            text: "Pricing",
-            url: "#pricing"
-        },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
-        }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'no-reply@payrollkami.app',
+    telephone: '+62811-9696-0658',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
