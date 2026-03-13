@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 import GetDemoModal from './GetDemoModal';
@@ -73,14 +72,12 @@ const Hero: React.FC = () => {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ duration: 0.8, ease: 'easeOut', delay: 0.45 }}
                 >
-                    <Image
-                        src={heroDetails.centerImageSrc}
-                        width={2000}
-                        height={480}
-                        quality={100}
-                        priority={true}
-                        unoptimized={true}
-                        alt="app mockup"
+                    <video
+                        src={heroDetails.centerVideoSrc}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
                         className="w-full max-w-none shadow-2xl"
                     />
                 </motion.div>
