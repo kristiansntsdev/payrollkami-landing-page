@@ -7,23 +7,23 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Solusi penggajian otomatis untuk bisnis Indonesia — mudah, akurat, dan sesuai regulasi.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Fitur",
             url: "#features"
         },
+        {
+            text: "Demo Gratis",
+            url: "#demo"
+        },
     ],
-    email: 'no-reply@payrollkami.app',
+    email: 'hello@payrollkami.app',
     telephone: '+62811-9696-0658',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        instagram: 'https://www.instagram.com/payrollkami',
+        // facebook: 'https://facebook.com',
+        // linkedin: 'https://www.linkedin.com',
+        // twitter: 'https://twitter.com',
     }
 }
