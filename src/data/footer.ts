@@ -18,7 +18,7 @@ export const footerDetails: {
             url: "#demo"
         },
     ],
-    email: 'hello@payrollkami.app',
+    email: 'no-reply@payrollkami.app',
     telephone: '+62811-9696-0658',
     socials: {
         instagram: 'https://www.instagram.com/payrollkami',
