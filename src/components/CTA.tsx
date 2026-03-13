@@ -3,6 +3,7 @@
 import { ctaDetails } from "@/data/cta"
 import GetDemoModal from "./GetDemoModal"
 import { useState } from "react"
+import PlayStoreButton from "./PlayStoreButton"
 
 const CTA: React.FC = () => {
     const [isDemoModalOpen, setDemoModalOpen] = useState(false);
@@ -22,12 +23,7 @@ const CTA: React.FC = () => {
                         <p className="mx-auto max-w-xl md:px-5">{ctaDetails.subheading}</p>
 
                         <div className="mt-8">
-                            <button
-                                onClick={() => setDemoModalOpen(true)}
-                                className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-white font-semibold text-base shadow-lg hover:bg-primary-accent transition-colors"
-                            >
-                                🚀 Mulai dan Coba Demo Gratis
-                            </button>
+                            <PlayStoreButton />
                         </div>
                     </div>
                 </div>
